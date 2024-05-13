@@ -31,7 +31,6 @@ body {
     gap: .2em;
     height: calc(100vh - 1px);
     justify-content: center;
-    padding: 1.6rem .8rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -40,6 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: .5rem;
+    overflow: hidden;
 }
 
 
@@ -67,7 +67,7 @@ body {
 
 .product-description {
     line-height: 170%;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 .prices {
@@ -102,6 +102,10 @@ img {
     display: block;
 }
 
+.attribution {
+    display: none;
+}
+
 @media screen and (max-width: 1440px) {
     .container {
         max-width: 350px;
@@ -110,7 +114,7 @@ img {
 
 @media screen and (min-width: 1440px) {
     .container {
-        width: 30%;
+        width: 24%;
         margin: 0 auto;
         align-items: center;
     }
@@ -126,5 +130,9 @@ img {
     .product-details {
         flex: 50%;
         padding: 1.5rem 2.3rem;
+    }
+
+    .attribution {
+        display: block;
     }
 }
