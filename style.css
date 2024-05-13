@@ -114,7 +114,7 @@ img {
 
 @media screen and (min-width: 1440px) {
     .container {
-        width: 24%;
+        width: 30%;
         margin: 0 auto;
         align-items: center;
     }
