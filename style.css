@@ -98,6 +98,10 @@ body {
     gap: .8em;
 }
 
+.add-to-cart-button:hover {
+    background-color: var(--clr-very-dark-blue);
+}
+
 img {
     display: block;
 }
@@ -106,7 +110,7 @@ img {
     display: none;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
     .container {
         max-width: 350px;
     }
